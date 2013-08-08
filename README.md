@@ -16,7 +16,7 @@ On your server, put the ga_xdcom.html file somewhere so it is accessable at some
 You'll need to edit this file, to set the event.origin so that only you can communicate with your proxy.
 
     // edit this line to use your add-on ID, found in package.json
-    if (event.origin == "resource://YOU-AT-YOUR-EXTENTION"
+    if (event.origin == "resource://YOU-AT-YOUR-EXTENTION") {
 
 
 In your extension, put the ga_proxy.js file in you /data directory.
